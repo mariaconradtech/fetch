@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Projeto</title>
+    <!-- Link para o CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fontes e ícones opcionais -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="images/main.jpeg" alt="Imagem de Destaque" class="hero-image">
+            <div class="hero-text">
+                <h1>Olá, eu me chamo Maria, seja bem vindo!</h1>
+                <p>Entusiasta no mundo da programação, aficionada por tecnologia e sempre em busca de novos desafios. Curso Análise e Desenvolvimento de Sistemas na UFPR, a minha jornada inclui a criação de soluções inovadoras e o domínio de diversas linguagens de programação, com o objetivo de desenvolver software que atenda às necessidades do mercado.</p>
+                <button class="hero-btn">Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Container Principal com Formulários -->
+    <div class="container">
+        <div class="form-container">
+            <!-- Formulário de Login -->
+            <div class="form sign-in">
+                <h2>Bem-vindo de volta,</h2>
+                <form id="signInForm">
+                    <label>
+                        <span>Email</span>
+                        <input type="email" id="signInEmail" required />
+                    </label>
+                    <label>
+                        <span>Senha</span>
+                        <input type="password" id="signInPassword" required />
+                    </label>
+                    <p class="forgot-pass"><a href="#">Esqueceu a senha?</a></p>
+                    <button type="submit" class="submit-btn">Entrar</button>
+                    <button type="button" class="fb-btn">Conectar com <span>Facebook</span></button>
+                </form>
+            </div>
+
+            <!-- Formulário de Cadastro -->
+            <div class="form sign-up">
+                <h2>Faça parte,</h2>
+                <form id="signUpForm">
+                    <label>
+                        <span>Nome</span>
+                        <input type="text" id="signUpName" required />
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" id="signUpEmail" required />
+                    </label>
+                    <label>
+                        <span>Senha</span>
+                        <input type="password" id="signUpPassword" required />
+                    </label>
+                    <button type="submit" class="submit-btn">Cadastrar</button>
+                    <button type="button" class="fb-btn">Juntar-se com <span>Facebook</span></button>
+                </form>
+            </div>
+
+            <!-- Imagem e Texto Adicional -->
+            <div class="img-container">
+                <img src="images/main.jpeg" alt="Imagem de Destaque">
+                <div class="img">
+                    <div class="img__text m--up">
+                        <h2>Novo por aqui?</h2>
+                        <p>Inscreva-se e descubra uma grande quantidade de novas oportunidades!</p>
+                    </div>
+                    <div class="img__text m--in">
+                        <h2>Já faz parte?</h2>
+                        <p>Se você já possui uma conta, apenas faça login. Sentimos sua falta!</p>
+                    </div>
+                    <div class="img__btn">
+                        <span class="m--up">Cadastrar</span>
+                        <span class="m--in">Entrar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé com Links de Redes Sociais e Referências -->
+    <footer class="footer-links">
+        <a href="https://dribbble.com/shots/3306190-Login-Registration-form" target="_blank" class="icon-link">
+            <img src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/256/Dribbble-icon.png" alt="Dribbble">
+        </a>
+        <a href="https://codepen.io/suez/pen/XWyBpre" target="_blank" class="link-footer">Nova Versão 2024</a>
+        <a href="https://twitter.com/NikolayTalanov" target="_blank" class="icon-link icon-link--twitter">
+            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter">
+        </a>
+    </footer>
+
+    <!-- Link para o JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
